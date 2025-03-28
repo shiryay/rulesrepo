@@ -22,7 +22,7 @@
       },
       {
         "id": 5,
-        "bug": "inform\\w*",
+        "bug": "\\b(?!information\\b)inform\\w*\\b",
         "tip": "Use \"report\" or \"state\" instead of \"inform\""
       },
       {
